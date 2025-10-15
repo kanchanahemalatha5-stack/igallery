@@ -38,11 +38,11 @@ gall.htmml
 <body bgcolor="cyan">
     <h1 align="center">Image Gallery</h1>
     <div class="gallery">
-        <img src="Ajith.png" alt="jin" onclick="f1()"  height="200" width="200" id="t1">
-        <img src="Arjun.png" alt="RM" onclick="f2()" height="200" width="200" id="t2">
-        <img src="Asif.png" alt="V" onclick="f3()" height="200" width="200" id="t3">
-        <img src="Harris.png" alt="Xiao zhan" onclick="f4()" height="200" width="200" id="t4">
-        <img src="Sakthi.png" alt="Yibo wang" onclick="f5()" height="200" width="200" id="t5">
+        <img src="Ajith.png" alt="Ajith" onclick="f1()"  height="200" width="200" id="t1">
+        <img src="Arjun.png" alt="Arjun" onclick="f2()" height="200" width="200" id="t2">
+        <img src="Asif.png" alt="Asif" onclick="f3()" height="200" width="200" id="t3">
+        <img src="Harris.png" alt="Harris" onclick="f4()" height="200" width="200" id="t4">
+        <img src="Sakthi.png" alt="Sakthi" onclick="f5()" height="200" width="200" id="t5">
     </div>
     <footer>
         <h2 align="center" >&copy; DESIGNED BY: Srimathi.S</h2>
@@ -93,7 +93,9 @@ function f5()
 
 ```
 ## OUTPUT:
-![alt text](<Screenshot 2025-10-15 163732.png>)
-![alt text](<Screenshot 2025-10-15 163756.png>)
+<img width="1920" height="1080" alt="Screenshot 2025-10-15 195823" src="https://github.com/user-attachments/assets/5796f239-4313-4c2f-9a2a-8b8291d5c639" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-15 195803" src="https://github.com/user-attachments/assets/a5ea7e18-deab-46f7-98e1-38c041799447" />
+
+
 ## RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
