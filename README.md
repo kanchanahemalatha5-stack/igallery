@@ -26,9 +26,74 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 ```
+gall.htmml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+     <script src="script.js"></script>
+</head>
+<body bgcolor="cyan">
+    <h1 align="center">Image Gallery</h1>
+    <div class="gallery">
+        <img src="Ajith.png" alt="jin" onclick="f1()"  height="200" width="200" id="t1">
+        <img src="Arjun.png" alt="RM" onclick="f2()" height="200" width="200" id="t2">
+        <img src="Asif.png" alt="V" onclick="f3()" height="200" width="200" id="t3">
+        <img src="Harris.png" alt="Xiao zhan" onclick="f4()" height="200" width="200" id="t4">
+        <img src="Sakthi.png" alt="Yibo wang" onclick="f5()" height="200" width="200" id="t5">
+    </div>
+    <footer>
+        <h2 align="center" >&copy; DESIGNED BY: Srimathi.S</h2>
+    </footer>
+   
+</body>
+</html>
+style.css
+body{
+    background-color:aqua;
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    gap: 15px;
+    margin-top: 250px;
+    justify-content: center;
+}
+img{
+    border-radius: 20px;
+    padding: 10px;
+}
+script.js
+function f1()
+{
+    document.getElementById("t1").style.transform="scale(2)";
+}
+function f2()
+{
+    document.getElementById("t2").style.transform="scale(2)";
+}
+function f3()
+{
+    document.getElementById("t3").style.transform="scale(2)";
+}
+function f4()
+{
+    document.getElementById("t4").style.transform="scale(2)";
+}
+function f5()
+{
+    document.getElementById("t5").style.transform="scale(2)";
+}
+
 
 ```
 ## OUTPUT:
-
+![alt text](<Screenshot 2025-10-15 163732.png>)
+![alt text](<Screenshot 2025-10-15 163756.png>)
 ## RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
